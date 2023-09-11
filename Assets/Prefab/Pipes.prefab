@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7364060776719615742}
   m_Layer: 0
   m_Name: Bottom Pipe
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,7 +110,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.00375, y: 21.34}
+  m_Size: {x: 3.5, y: 5.6}
   m_EdgeRadius: 0
 --- !u!114 &7364060776719615742
 MonoBehaviour:
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 4444702587669631}
   m_Layer: 0
   m_Name: Top Pipe
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +153,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3878303522685649096}
   m_LocalRotation: {x: -0, y: -0, z: -0.9999977, w: -0.002176379}
-  m_LocalPosition: {x: 0.18, y: 19.76, z: 0}
+  m_LocalPosition: {x: 0.2, y: 22.7, z: 0}
   m_LocalScale: {x: 1, y: 3.950622, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -236,7 +236,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.00375, y: 21.34}
+  m_Size: {x: 3.5, y: 5.6}
   m_EdgeRadius: 0
 --- !u!114 &4444702587669631
 MonoBehaviour:
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 3188717571979996230}
   m_Layer: 0
   m_Name: score
-  m_TagString: Untagged
+  m_TagString: Scoring
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -277,8 +277,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5649704833329580849}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.15, y: 2.16, z: 0}
-  m_LocalScale: {x: 7.682187, y: 4.466, z: 1}
+  m_LocalPosition: {x: 0.1, y: 6.6, z: 0}
+  m_LocalScale: {x: 6.308996, y: 8.111381, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2194711265987484109}
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: -6462336742370319007}
   m_Layer: 0
   m_Name: Pipes
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
