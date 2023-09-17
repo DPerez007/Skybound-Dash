@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
   public Text scoreText;
   [SerializeField] private AudioSource BackGroundSound;
   [SerializeField] private AudioSource ScoreSound;
+  [SerializeField] private AudioSource DeathSound;
+  [SerializeField] private AudioSource DeathEffect;
   private int score;
 
   private void Awake()
@@ -22,6 +24,7 @@ public class GameManager : MonoBehaviour
     Pause();
     gameOver.SetActive(false);
     BackGroundSound.Stop();
+    DeathSound.Stop();
    
   }
 
@@ -31,6 +34,7 @@ public class GameManager : MonoBehaviour
 
    public void Play()
     {
+    DeathSound.Stop();
     score = 0;
     scoreText.text = score.ToString();
     BackGroundSound.Play();
@@ -63,6 +67,8 @@ public class GameManager : MonoBehaviour
       gameOver.SetActive(true);
       playButton.SetActive(true);
       BackGroundSound.Stop();
+      DeathSound.Play();
+      DeathEffect.Play();
       Pause();
 
   }

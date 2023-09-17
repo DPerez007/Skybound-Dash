@@ -15,7 +15,7 @@ C:/Users/danie/Skybound Dash
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57857
+62563
 Successfully changed project path to: C:/Users/danie/Skybound Dash
 C:/Users/danie/Skybound Dash
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/danie/Skybound Dash
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 106.83 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 113.57 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -55,107 +55,107 @@ Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x9bc4)
-    Vendor:   Intel
-    VRAM:     8102 MB
-    Driver:   26.20.100.7642
+    Renderer: NVIDIA GeForce RTX 2080 Super (ID=0x1e93)
+    Vendor:   NVIDIA
+    VRAM:     8001 MB
+    Driver:   31.0.15.2698
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009264 seconds.
+Registered in 0.007492 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 136.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 117.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.898 seconds
+- Completed reload, in  0.741 seconds
 Domain Reload Profiling:
-	ReloadAssembly (898ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (742ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (652ms)
-			LoadAssemblies (97ms)
+		EndReloadAssembly (548ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (109ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (408ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (353ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (136ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013567 seconds.
+Registered in 0.011246 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 155.82 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 551.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  1.785 seconds
+- Completed reload, in  2.346 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1786ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (2349ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1472ms)
-			LoadAssemblies (118ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (2097ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (384ms)
+			SetupTypeCache (395ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (787ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (1397ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (156ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (362ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (553ms)
+				BeforeProcessingInitializeOnLoad (300ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.59 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4330 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 60 unused Assets / (229.1 KB). Loaded Objects now: 4767.
 Memory consumption went from 161.4 MB to 161.2 MB.
-Total: 5.414300 ms (FindLiveObjects: 0.439800 ms CreateObjectMapping: 0.392200 ms MarkObjects: 4.374000 ms  DeleteObjects: 0.207000 ms)
+Total: 18.341900 ms (FindLiveObjects: 0.563700 ms CreateObjectMapping: 2.415900 ms MarkObjects: 15.122200 ms  DeleteObjects: 0.238200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,52 +170,124 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 30235.734659 seconds.
-  path: Assets/Music Tracks/Potato.wav
-  artifactKey: Guid(87890a66193394e3cb7d6284cc6b4344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music Tracks/Potato.wav using Guid(87890a66193394e3cb7d6284cc6b4344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28af6a07a237c04086da53c1bedf25fe') in 0.196976 seconds 
+  Time since last request: 96065.337371 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Atsuhisa Isomura - Game Over Jingles Pack - 06 My neighbor.wav
+  artifactKey: Guid(11004a115ba21fc4f8c4c12f681e2a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Atsuhisa Isomura - Game Over Jingles Pack - 06 My neighbor.wav using Guid(11004a115ba21fc4f8c4c12f681e2a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cb623705c856f82865445c52efe840') in 0.158388 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Music Tracks/SunnyDay.wav
-  artifactKey: Guid(6306498bbea9342a58ad61d5f7128830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music Tracks/SunnyDay.wav using Guid(6306498bbea9342a58ad61d5f7128830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a09401dee8efd52d6a31d5180f238d9') in 0.030972 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Atsuhisa Isomura - Game Over Jingles Pack - 22 Take A Rest.wav
+  artifactKey: Guid(5abeaa4d0dd019b4fbc04a252f087c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Atsuhisa Isomura - Game Over Jingles Pack - 22 Take A Rest.wav using Guid(5abeaa4d0dd019b4fbc04a252f087c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5626a517ae61a5029af0cef6aa7c8ecd') in 0.018916 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Music Tracks/Zephyr.wav
-  artifactKey: Guid(07f391589664f4e85904fa28802b4aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music Tracks/Zephyr.wav using Guid(07f391589664f4e85904fa28802b4aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63a76bffda894b0828f85630516f405') in 0.034062 seconds 
+  Time since last request: 3.588397 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Casey Frantum - Game Over Jingles Pack - 57 Sega Deth.wav
+  artifactKey: Guid(8d91bae1cbd7a074eb75b9527aa95d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Casey Frantum - Game Over Jingles Pack - 57 Sega Deth.wav using Guid(8d91bae1cbd7a074eb75b9527aa95d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bb74b8af9c9a1d69b1e783c16ae06c') in 0.018280 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.880165 seconds.
-  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Designed_Pop_Movement_Open_1.wav
-  artifactKey: Guid(2b8670b132d29984c93743808adbfcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Designed_Pop_Movement_Open_1.wav using Guid(2b8670b132d29984c93743808adbfcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c9141185a39c60901fc01cc2a6da55') in 0.072581 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Casey Frantum - Game Over Jingles Pack - 59 Delicate Piano.wav
+  artifactKey: Guid(77ed02093e74fac42a18f2b5c7cf4574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Casey Frantum - Game Over Jingles Pack - 59 Delicate Piano.wav using Guid(77ed02093e74fac42a18f2b5c7cf4574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ae547fb00e641df31922a849d806c0') in 0.023817 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Designed_Pop_Open_2.wav
-  artifactKey: Guid(e26b12344a8fdd2439361d014323be33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Designed_Pop_Open_2.wav using Guid(e26b12344a8fdd2439361d014323be33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131611ca14e4da8feaffc64676c5fee4') in 0.076625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Designed_Pop_Negative_Close_1.wav
-  artifactKey: Guid(e759c65f76c80834abc572593f946008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Designed_Pop_Negative_Close_1.wav using Guid(e759c65f76c80834abc572593f946008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c86fcea9770436a5a77bf06b14d5b3') in 0.036807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Organic_Pop_Thin_Generic_1.wav
-  artifactKey: Guid(41c5c2b983676c14abbebce504e00d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Pop/SFX_UI_Click_Organic_Pop_Thin_Generic_1.wav using Guid(41c5c2b983676c14abbebce504e00d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4016e3cb0e9276ef125124bfdb6d85b1') in 0.030572 seconds 
+  Time since last request: 3.483082 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Clement Panchout - Game Over Jingles Pack - 41 GameOverJingle Sunday.wav
+  artifactKey: Guid(d471abe91854c2f40923fc506b9b8f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Clement Panchout - Game Over Jingles Pack - 41 GameOverJingle Sunday.wav using Guid(d471abe91854c2f40923fc506b9b8f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54fa189d1058b2a28251a47b6818c74') in 0.019374 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Free UI Click Sound Effects Pack/AUDIO/Pop
-  artifactKey: Guid(eb580f911ee41834589a48c4ca196afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free UI Click Sound Effects Pack/AUDIO/Pop using Guid(eb580f911ee41834589a48c4ca196afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5b9052238f24c202bd6624d10c91dc') in 0.009681 seconds 
+  path: Assets/69 Game Over Jingles Pack (Free)/Clement Panchout - Game Over Jingles Pack - 43 GameOverJingle Friday.wav
+  artifactKey: Guid(7555f989677f6d24d80f0351a876ac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Clement Panchout - Game Over Jingles Pack - 43 GameOverJingle Friday.wav using Guid(7555f989677f6d24d80f0351a876ac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde3d197ea45ea2c67ea3c7e26702562') in 0.020533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018568 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Devlin Bataric - Game Over Jingles Pack - 01 Game Over - Repeating Dream.wav
+  artifactKey: Guid(804eb2a07cc0c724d8b43054924583d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Devlin Bataric - Game Over Jingles Pack - 01 Game Over - Repeating Dream.wav using Guid(804eb2a07cc0c724d8b43054924583d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c110dd0b3c4d030a1e05331847d07f7c') in 0.019737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Devlin Bataric - Game Over Jingles Pack - 12 Game Over - The Countdown.wav
+  artifactKey: Guid(78cee582299eef245b11e904f5aae41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Devlin Bataric - Game Over Jingles Pack - 12 Game Over - The Countdown.wav using Guid(78cee582299eef245b11e904f5aae41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd855cc8581061911f60f73ebed0c95c8') in 0.022432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031853 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Devlin Bataric - Game Over Jingles Pack - 17 Game Over - Dawn of Night.wav
+  artifactKey: Guid(ea68fca34633a26499530ddfc019dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Devlin Bataric - Game Over Jingles Pack - 17 Game Over - Dawn of Night.wav using Guid(ea68fca34633a26499530ddfc019dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bb4bc2cfece89c62be2910f045d7bd') in 0.017987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Devlin Bataric - Game Over Jingles Pack - 21 Game Over - The L.wav
+  artifactKey: Guid(24dcf8614800c5644a2921234a23dfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Devlin Bataric - Game Over Jingles Pack - 21 Game Over - The L.wav using Guid(24dcf8614800c5644a2921234a23dfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005ffd41eeaf6abff4a7a1a65f179558') in 0.019994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.313459 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Eugene Golobokin - Game Over Jingles Pack - 19 Game Over Theme 1 synth glitchy.wav
+  artifactKey: Guid(373202ad1c26edf49a7517e7b8ff2d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Eugene Golobokin - Game Over Jingles Pack - 19 Game Over Theme 1 synth glitchy.wav using Guid(373202ad1c26edf49a7517e7b8ff2d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a707d75535f94aaf9de258a33a58be9') in 0.033786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Eugene Golobokin - Game Over Jingles Pack - 23 Game Over Theme 7 piano beat.wav
+  artifactKey: Guid(0960bd7ff6d4bca4db323a34db9cfc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Eugene Golobokin - Game Over Jingles Pack - 23 Game Over Theme 7 piano beat.wav using Guid(0960bd7ff6d4bca4db323a34db9cfc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631b6571c7e08c6b6fbff04aa0c8225e') in 0.024111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 47 GameOverJingle Desktop 3.wav
+  artifactKey: Guid(ef96321739f5afe47b4ce3700af9b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 47 GameOverJingle Desktop 3.wav using Guid(ef96321739f5afe47b4ce3700af9b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862e437fbb84fc9f4e26beb2b6a2106c') in 0.019998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Solomon Allen - Game Over Jingles Pack - 53 Not So Super After All, It Seems.wav
+  artifactKey: Guid(793c039ed7479ec4da52c4035b189b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Solomon Allen - Game Over Jingles Pack - 53 Not So Super After All, It Seems.wav using Guid(793c039ed7479ec4da52c4035b189b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc00a284b04e515bc4b11ae33f969023') in 0.020160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 50 GameOverJingle Desktop 5.wav
+  artifactKey: Guid(6e594f1fc66ae2842a06ac14eb5e0623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 50 GameOverJingle Desktop 5.wav using Guid(6e594f1fc66ae2842a06ac14eb5e0623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17ed1e4ef4f37b9ad00fbf83347504c') in 0.025767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Eugene Golobokin - Game Over Jingles Pack - 24 Game Over Theme 3 space heartbeat.wav
+  artifactKey: Guid(633657ede85aa674582448b410bb50e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Eugene Golobokin - Game Over Jingles Pack - 24 Game Over Theme 3 space heartbeat.wav using Guid(633657ede85aa674582448b410bb50e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8540ebd8384c533a05a77eee1ebaf5') in 0.024397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 65 GameOverJingle Devices 4.wav
+  artifactKey: Guid(3c8e2bbbac5d95b4e837cd2470f8e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 65 GameOverJingle Devices 4.wav using Guid(3c8e2bbbac5d95b4e837cd2470f8e8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1359521f28d394a64777359d1136133f') in 0.020426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 04 GameOverJingle Desktop 2.wav
+  artifactKey: Guid(d364bc2efb8eaeb488c032e9672db08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 04 GameOverJingle Desktop 2.wav using Guid(d364bc2efb8eaeb488c032e9672db08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd5e01b561549c68d56c54e23f3d5d5') in 0.024757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Solomon Allen - Game Over Jingles Pack - 52 Don't Cross The Infamous.wav
+  artifactKey: Guid(08915e56658f2f44d8bbcfca79e5343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Solomon Allen - Game Over Jingles Pack - 52 Don't Cross The Infamous.wav using Guid(08915e56658f2f44d8bbcfca79e5343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3d4b2e1166d388d97e300bae46abc4') in 0.020240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 63 GameOverJingle Devices 2.wav
+  artifactKey: Guid(aae0c2b18e689ef49aef90c57446511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 63 GameOverJingle Devices 2.wav using Guid(aae0c2b18e689ef49aef90c57446511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d81e08958b0249015ed06fd2b9330f0') in 0.024069 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
