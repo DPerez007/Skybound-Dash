@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public Sprite[] sprites;
     private int spriteIndex;
-
+    
 
     // Start is called before the first frame update
    private void Awake()
@@ -34,6 +34,7 @@ public class Player : MonoBehaviour
     position.y =0f;
     transform.position = position;
     direction = Vector3.zero;
+   
    }
 
     // Update is called once per frame

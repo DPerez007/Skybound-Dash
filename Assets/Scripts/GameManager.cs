@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
   public GameObject playButton;
   public GameObject gameOver;
   public Text scoreText;
+  [SerializeField] private AudioSource BackGroundSound;
 
   private int score;
 
@@ -19,7 +20,9 @@ public class GameManager : MonoBehaviour
     Application.targetFrameRate = 60;
 
     Pause();
-
+    gameOver.SetActive(false);
+    BackGroundSound.Stop();
+   
   }
 
 
@@ -30,11 +33,12 @@ public class GameManager : MonoBehaviour
     {
     score = 0;
     scoreText.text = score.ToString();
-
+    BackGroundSound.Play();
     playButton.SetActive(false);
     gameOver.SetActive(false);
     Time.timeScale = 1f;
     player.enabled = true;
+    
 
 
 
@@ -58,7 +62,7 @@ public class GameManager : MonoBehaviour
   {
       gameOver.SetActive(true);
       playButton.SetActive(true);
-
+      BackGroundSound.Stop();
       Pause();
 
   }
