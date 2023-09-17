@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{23e4c160-f553-048d-74fc-7b3a77ade50d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{b5d9be06-bf3b-90e0-70b9-34a4f53c68e5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23e4c160-f553-048d-74fc-7b3a77ade50d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23e4c160-f553-048d-74fc-7b3a77ade50d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b5d9be06-bf3b-90e0-70b9-34a4f53c68e5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b5d9be06-bf3b-90e0-70b9-34a4f53c68e5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
