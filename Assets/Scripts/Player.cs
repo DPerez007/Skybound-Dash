@@ -28,7 +28,13 @@ public class Player : MonoBehaviour
 
     }
    
-
+     private void OnEnable()
+  {
+    Vector3 position = transform.position;
+    position.y =0f;
+    transform.position = position;
+    direction = Vector3.zero;
+   }
 
     // Update is called once per frame
    private void Update()

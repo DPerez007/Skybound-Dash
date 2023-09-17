@@ -22,6 +22,10 @@ public class GameManager : MonoBehaviour
 
   }
 
+
+
+ 
+
    public void Play()
     {
     score = 0;
