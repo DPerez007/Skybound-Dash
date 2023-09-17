@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
   public GameObject gameOver;
   public Text scoreText;
   [SerializeField] private AudioSource BackGroundSound;
-
+  [SerializeField] private AudioSource ScoreSound;
   private int score;
 
   private void Awake()
@@ -69,6 +69,7 @@ public class GameManager : MonoBehaviour
   
   public void IncreasedScore()
   {
+    ScoreSound.Play();
     score++;
     scoreText.text = score.ToString();
 
