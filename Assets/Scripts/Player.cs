@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public Sprite[] sprites;
     private int spriteIndex;
-    
+    [SerializeField] private AudioSource jump;
 
     // Start is called before the first frame update
    private void Awake()
@@ -43,6 +43,7 @@ public class Player : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space)|| Input.GetMouseButtonDown(0))
         {
             direction = Vector3.up * strength;
+            jump.Play();
         }
 
       
