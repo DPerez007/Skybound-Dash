@@ -15,7 +15,7 @@ C:/Users/danie/Skybound Dash
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62563
+54224
 Successfully changed project path to: C:/Users/danie/Skybound Dash
 C:/Users/danie/Skybound Dash
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/danie/Skybound Dash
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 106.92 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 149.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -55,107 +55,107 @@ Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 Super (ID=0x1e93)
-    Vendor:   NVIDIA
-    VRAM:     8001 MB
-    Driver:   31.0.15.2698
+    Renderer: Intel(R) UHD Graphics (ID=0x9bc4)
+    Vendor:   Intel
+    VRAM:     8102 MB
+    Driver:   26.20.100.7642
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007310 seconds.
+Registered in 0.009446 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 105.68 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 134.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
+- Completed reload, in  0.876 seconds
 Domain Reload Profiling:
-	ReloadAssembly (732ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (534ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (629ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (111ms)
+			SetupTypeCache (128ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (402ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
+				InitializePlatformSupportModulesInManaged (34ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
+				RefreshPlugins (135ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011334 seconds.
+Registered in 0.013745 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 328.18 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 128.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  2.339 seconds
+- Completed reload, in  1.595 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2340ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1596ms)
+		BeginReloadAssembly (172ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (2081ms)
-			LoadAssemblies (111ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1233ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (390ms)
+			SetupTypeCache (319ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (1402ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (663ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (328ms)
-				BeforeProcessingInitializeOnLoad (517ms)
-				ProcessInitializeOnLoadAttributes (458ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4330 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 60 unused Assets / (229.1 KB). Loaded Objects now: 4767.
-Memory consumption went from 161.4 MB to 161.2 MB.
-Total: 37.329900 ms (FindLiveObjects: 1.758600 ms CreateObjectMapping: 6.422400 ms MarkObjects: 27.373000 ms  DeleteObjects: 1.772800 ms)
+Memory consumption went from 161.8 MB to 161.6 MB.
+Total: 4.400100 ms (FindLiveObjects: 0.366500 ms CreateObjectMapping: 0.356700 ms MarkObjects: 3.446300 ms  DeleteObjects: 0.229100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,155 +170,491 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 95837.705951 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(14c5babe3f15d9444a39916c2e396bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(14c5babe3f15d9444a39916c2e396bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0693f4c33a6c9f6e8435665448aaedb') in 0.141291 seconds 
+  Time since last request: 53563.954826 seconds.
+  path: Assets/Sprites/Bluepipe 1.png
+  artifactKey: Guid(5f0cc7ebc1461dc44a3f0186e1f302b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bluepipe 1.png using Guid(5f0cc7ebc1461dc44a3f0186e1f302b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b4e634ad4760a9f53970b597045ca8') in 0.240934 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 227.476470 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Atsuhisa Isomura - Game Over Jingles Pack - 05 Continue-.wav
-  artifactKey: Guid(c6200a6aa5cbd0e4eaeeaa64732566d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Atsuhisa Isomura - Game Over Jingles Pack - 05 Continue-.wav using Guid(c6200a6aa5cbd0e4eaeeaa64732566d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9e44f49ca1a507b7f1731e2119475a') in 0.136607 seconds 
+  Time since last request: 30.893152 seconds.
+  path: Assets/Sprites/Bluepipe 1.png
+  artifactKey: Guid(5f0cc7ebc1461dc44a3f0186e1f302b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bluepipe 1.png using Guid(5f0cc7ebc1461dc44a3f0186e1f302b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64221d7e8a65d612448c2f136e2ad583') in 0.095724 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012935 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1460ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1114ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (503ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (195.7 KB). Loaded Objects now: 4777.
+Memory consumption went from 164.8 MB to 164.6 MB.
+Total: 3.889100 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.223500 ms MarkObjects: 3.158600 ms  DeleteObjects: 0.207600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Atsuhisa Isomura - Game Over Jingles Pack - 11 Oops!.wav
-  artifactKey: Guid(d3973f3ff7da53444af395717e2c7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Atsuhisa Isomura - Game Over Jingles Pack - 11 Oops!.wav using Guid(d3973f3ff7da53444af395717e2c7d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2e576621c5a9a5c1911c1c8092e66f') in 0.015802 seconds 
+  Time since last request: 578.831714 seconds.
+  path: Assets/Sprites/Bluepipe.png
+  artifactKey: Guid(88c17114bf69e4c41aac58e393f61789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bluepipe.png using Guid(88c17114bf69e4c41aac58e393f61789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9223f5ae5b46a2476b446cbb205f856a') in 0.092310 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Casey Frantum - Game Over Jingles Pack - 49 What The World's Hoping For.wav
-  artifactKey: Guid(4921fc5f28fb1554587e22c7eecf0041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Casey Frantum - Game Over Jingles Pack - 49 What The World's Hoping For.wav using Guid(4921fc5f28fb1554587e22c7eecf0041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c7807b72d8ee860cf09db7def3c679') in 0.016855 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015128 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1485ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1186ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (581ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (64ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (195.7 KB). Loaded Objects now: 4783.
+Memory consumption went from 164.8 MB to 164.6 MB.
+Total: 4.313300 ms (FindLiveObjects: 0.331200 ms CreateObjectMapping: 0.273600 ms MarkObjects: 3.546100 ms  DeleteObjects: 0.161500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Atsuhisa Isomura - Game Over Jingles Pack - 18 Oh, man!.wav
-  artifactKey: Guid(9c90da08787752b4f9c6519861c2c828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Atsuhisa Isomura - Game Over Jingles Pack - 18 Oh, man!.wav using Guid(9c90da08787752b4f9c6519861c2c828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05775162ceeb0702a903fcb6ed84f2b7') in 0.017219 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010688 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.416 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1417ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1123ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (195.6 KB). Loaded Objects now: 4786.
+Memory consumption went from 164.8 MB to 164.6 MB.
+Total: 4.011200 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.332200 ms MarkObjects: 3.154900 ms  DeleteObjects: 0.178100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 3.567314 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Casey Frantum - Game Over Jingles Pack - 56 Sad Strings.wav
-  artifactKey: Guid(8eae7dfac372d8948a95554eae6c7645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Casey Frantum - Game Over Jingles Pack - 56 Sad Strings.wav using Guid(8eae7dfac372d8948a95554eae6c7645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ca84d4d2fa4df4b712f0e4909b3454') in 0.018145 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011286 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1621ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1229ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (195.7 KB). Loaded Objects now: 4789.
+Memory consumption went from 164.8 MB to 164.6 MB.
+Total: 3.790400 ms (FindLiveObjects: 0.333000 ms CreateObjectMapping: 0.280200 ms MarkObjects: 3.003300 ms  DeleteObjects: 0.172400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Clement Panchout - Game Over Jingles Pack - 25 GameOverJingle Monday.wav
-  artifactKey: Guid(77737eb75895cee44b07e523e4372cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Clement Panchout - Game Over Jingles Pack - 25 GameOverJingle Monday.wav using Guid(77737eb75895cee44b07e523e4372cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5be4f7e683ec4913dc997c60d9a4c31') in 0.020444 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010525 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.438 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1439ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1112ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (196.0 KB). Loaded Objects now: 4792.
+Memory consumption went from 164.8 MB to 164.6 MB.
+Total: 5.335900 ms (FindLiveObjects: 0.506000 ms CreateObjectMapping: 0.429600 ms MarkObjects: 4.203100 ms  DeleteObjects: 0.195600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 3.487606 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Clement Panchout - Game Over Jingles Pack - 40 GameOverJingle Tuesday.wav
-  artifactKey: Guid(2a9f8295362204e4095fdcbc8a6af8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Clement Panchout - Game Over Jingles Pack - 40 GameOverJingle Tuesday.wav using Guid(2a9f8295362204e4095fdcbc8a6af8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85b4ce3501315471c853720f039aa61') in 0.018770 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011912 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.387 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1387ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (195.8 KB). Loaded Objects now: 4795.
+Memory consumption went from 164.8 MB to 164.6 MB.
+Total: 5.214400 ms (FindLiveObjects: 0.384500 ms CreateObjectMapping: 0.349700 ms MarkObjects: 4.297700 ms  DeleteObjects: 0.181500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Clement Panchout - Game Over Jingles Pack - 42 GameOverJingle Wednesday.wav
-  artifactKey: Guid(2442e18c8f5c8134da375337aaef466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Clement Panchout - Game Over Jingles Pack - 42 GameOverJingle Wednesday.wav using Guid(2442e18c8f5c8134da375337aaef466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda4be96b8aaf1d540fc401ba7793b25') in 0.020174 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012591 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1369ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1071ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (195.9 KB). Loaded Objects now: 4798.
+Memory consumption went from 164.8 MB to 164.6 MB.
+Total: 4.116100 ms (FindLiveObjects: 0.352300 ms CreateObjectMapping: 0.302600 ms MarkObjects: 3.269700 ms  DeleteObjects: 0.190300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.016319 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/cover.png
-  artifactKey: Guid(e6e4c920d19b98c449b6ea13f225aacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/cover.png using Guid(e6e4c920d19b98c449b6ea13f225aacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f967fe8068174751d3cafc0e97366a') in 0.257254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.190842 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Eugene Golobokin - Game Over Jingles Pack - 16 Game Over Theme 2 piano epic.wav
-  artifactKey: Guid(053485edee451cc43af1face9417fae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Eugene Golobokin - Game Over Jingles Pack - 16 Game Over Theme 2 piano epic.wav using Guid(053485edee451cc43af1face9417fae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70628099d80085d0260b9cc650300947') in 0.040391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Pixel Guy - Game Over Jingles Pack - 29 Game Over.wav
-  artifactKey: Guid(af3977a16ffdcf945acc56e5bc232534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Pixel Guy - Game Over Jingles Pack - 29 Game Over.wav using Guid(af3977a16ffdcf945acc56e5bc232534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fb46f7f974d87b889c4c2f24bebd37') in 0.021450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 66 GameOverJingle Devices 5.wav
-  artifactKey: Guid(9bc35e2aaf75f8046b21004501a2f67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 66 GameOverJingle Devices 5.wav using Guid(9bc35e2aaf75f8046b21004501a2f67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a41d51a32cba97df3c7a99a5485678') in 0.022616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 36 GameOverJingle Desktop 4.wav
-  artifactKey: Guid(3de9db90def65684a947c065e1684422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 36 GameOverJingle Desktop 4.wav using Guid(3de9db90def65684a947c065e1684422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd36f405d42895db958d3aed8890be5') in 0.023650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Solomon Allen - Game Over Jingles Pack - 38 Second Armageddon.wav
-  artifactKey: Guid(70c24b1cdf2786443aaf7fe5af0fc9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Solomon Allen - Game Over Jingles Pack - 38 Second Armageddon.wav using Guid(70c24b1cdf2786443aaf7fe5af0fc9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580e26caf2506eaf545b884a5924d35f') in 0.029094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Pixel Guy - Game Over Jingles Pack - 34 I Didn't See that Coming.wav
-  artifactKey: Guid(89f9357a35c96ba40ad9c0f4ac95145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Pixel Guy - Game Over Jingles Pack - 34 I Didn't See that Coming.wav using Guid(89f9357a35c96ba40ad9c0f4ac95145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a58a6de55f6a87af88a0536ab5141e') in 0.027334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Pixel Guy - Game Over Jingles Pack - 13 10 sec Is not Enough.wav
-  artifactKey: Guid(50175acd7cf810f49929a46741b1e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Pixel Guy - Game Over Jingles Pack - 13 10 sec Is not Enough.wav using Guid(50175acd7cf810f49929a46741b1e598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a31a7a2a98d618e90a80f7487ecba62') in 0.022937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 46 GameOverJingle Desktop 1.wav
-  artifactKey: Guid(795f2cfc045d37e46bcdbdf7c8d9120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 46 GameOverJingle Desktop 1.wav using Guid(795f2cfc045d37e46bcdbdf7c8d9120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba616d790806c32a38e08cf2c6f725e4') in 0.021944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 45 GameOverJingle Devices 1.wav
-  artifactKey: Guid(f2c9cb9fd9ee1514098334d32c6af420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Salvatore Maccarrone - Game Over Jingles Pack - 45 GameOverJingle Devices 1.wav using Guid(f2c9cb9fd9ee1514098334d32c6af420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d619a6da464d1b5745b30e54cada3f9') in 0.023529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Paul Hayfield - Game Over Jingles Pack - 08 You Are Dead.wav
-  artifactKey: Guid(d7168a351882f0645822fd14f90dbca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Paul Hayfield - Game Over Jingles Pack - 08 You Are Dead.wav using Guid(d7168a351882f0645822fd14f90dbca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4815a37e70379eff52285dbb659e6e') in 0.018590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 73.605855 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Solomon Allen - Game Over Jingles Pack - 58 filthy homicide.wav
-  artifactKey: Guid(14d02eea39529bc409cb047e3f1ed683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Solomon Allen - Game Over Jingles Pack - 58 filthy homicide.wav using Guid(14d02eea39529bc409cb047e3f1ed683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fbf335d23553bc08c00aeb034cb7f7') in 0.025513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Solomon Allen - Game Over Jingles Pack - 61 -Finale Calamity- Cathartic ANIMOSITY.wav
-  artifactKey: Guid(124bd573655bc9c42b8ed24c662b18b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Solomon Allen - Game Over Jingles Pack - 61 -Finale Calamity- Cathartic ANIMOSITY.wav using Guid(124bd573655bc9c42b8ed24c662b18b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28df69f6632dfde90900b6ff89910241') in 0.021817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021197 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Tine Schenck - Game Over Jingles Pack - 15 Jingle 1.wav
-  artifactKey: Guid(e55c964b65b96714183e2259c37778d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Tine Schenck - Game Over Jingles Pack - 15 Jingle 1.wav using Guid(e55c964b65b96714183e2259c37778d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a9d52e0430b93a0e99c1e1bb98b6f2') in 0.020608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Tine Schenck - Game Over Jingles Pack - 30 Jingle 4.wav
-  artifactKey: Guid(cf9263392cd83634fbe463db411d01ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Tine Schenck - Game Over Jingles Pack - 30 Jingle 4.wav using Guid(cf9263392cd83634fbe463db411d01ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82995739c0e564e7b371860c8afcbe9') in 0.021737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.091470 seconds.
-  path: Assets/69 Game Over Jingles Pack (Free)/Tine Schenck - Game Over Jingles Pack - 51 Jingle 3.wav
-  artifactKey: Guid(0574f8e24a797ca4bb71d72e77da11a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/69 Game Over Jingles Pack (Free)/Tine Schenck - Game Over Jingles Pack - 51 Jingle 3.wav using Guid(0574f8e24a797ca4bb71d72e77da11a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbf79fc67f7283907f06c40500f1070') in 0.016781 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013838 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\danie\Skybound Dash\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.402 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1403ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1105ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (504ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (195.7 KB). Loaded Objects now: 4801.
+Memory consumption went from 164.8 MB to 164.6 MB.
+Total: 5.192400 ms (FindLiveObjects: 0.387100 ms CreateObjectMapping: 0.298100 ms MarkObjects: 4.308200 ms  DeleteObjects: 0.197300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
