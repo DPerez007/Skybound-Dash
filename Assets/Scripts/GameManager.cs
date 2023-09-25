@@ -11,8 +11,13 @@ public class GameManager : MonoBehaviour
   public GameObject playButton;
   public GameObject gameOver;
   public GameObject Tap;
+  public GameObject Welcome;
+
   public Text scoreText;
-  
+ 
+
+
+
   [SerializeField] private AudioSource BackGroundSound;
   [SerializeField] private AudioSource ScoreSound;
   [SerializeField] private AudioSource DeathSound;
@@ -27,8 +32,8 @@ public class GameManager : MonoBehaviour
     gameOver.SetActive(false);
     BackGroundSound.Stop();
     DeathSound.Stop();
-    Tap.SetActive(true);
-   
+    
+    
   }
 
 
@@ -37,26 +42,27 @@ public class GameManager : MonoBehaviour
 
    public void Play()
     {
+    
     DeathSound.Stop();
-     Tap.SetActive(false);
     score = 0;
     scoreText.text = score.ToString();
     BackGroundSound.Play();
     playButton.SetActive(false);
     gameOver.SetActive(false);
-
     Time.timeScale = 1f;
     player.enabled = true;
-    
-
-
+   Tap.SetActive(false);
+   Welcome.SetActive(false);
 
    Pipes[] pipes = FindObjectsOfType<Pipes>();
 
    for(int i = 0; i  < pipes.Length; i++)
    {
     Destroy(pipes[i].gameObject);
+
    }
+    
+    
 
    }
 
@@ -74,7 +80,8 @@ public class GameManager : MonoBehaviour
       BackGroundSound.Stop();
       DeathSound.Play();
       DeathEffect.Play();
-       Tap.SetActive(false);
+      Tap.SetActive(false);
+      Welcome.SetActive(false);
       Pause();
 
      
